@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mvn-source:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mvn_source_jar</output-path>
+    <root id="archive" name="mvn-source.jar">
+      <element id="module-output" name="mvn-source" />
+    </root>
+  </artifact>
+</component>
