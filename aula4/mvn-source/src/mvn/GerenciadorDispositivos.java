@@ -234,18 +234,18 @@ public class GerenciadorDispositivos{
 		addDispositivo(deviceType, logicalUnit, device);
 	}
 
-    /**
-     * Adiciona um dispositivo no gerenciador.
-     * <br/>
-     * <b>Pre-condicao</b>: Os parametros devem ser consistentes
-     * <b>Pos condicao</b>: O dispositivo especifcado e gerado
-     *
-     * @param deviceType
-     *          Tipo de dispositivo: 0 para teclado, 1 para monitor e 6 para Fibonacci
-     * @param logicalUnit
-     *          Uniade lógica
-     * @throws MVNException
-     */
+        /**
+         * Adiciona um dispositivo no gerenciador.
+         * <br/>
+         * <b>Pre-condicao</b>: Os parametros devem ser consistentes
+         * <b>Pos condicao</b>: O dispositivo especifcado e gerado
+         *
+         * @param deviceType
+         *          Tipo de dispositivo: 0 para teclado, 1 para monitor e 6 para Fibonacci
+         * @param logicalUnit
+         *          Uniade lógica
+         * @throws MVNException
+         */
 	public void addDispSimples(int deviceType, int logicalUnit) throws MVNException{
         if(deviceType == 0) {
             addDispositivo(deviceType, logicalUnit, new Teclado());

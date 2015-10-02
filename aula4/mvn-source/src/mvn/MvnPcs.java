@@ -30,8 +30,7 @@ public class MvnPcs{
 	/*** Painel de Controle da MVN */
 	private static PainelControle	painel;
 
-	/*** Fibonacci  */
-	private static Fibonacci fibonacci;
+
 	
 	
 	/**
@@ -47,7 +46,6 @@ public class MvnPcs{
 	public static void main(String args[]){
 		mvnPcs = new MvnControle();
 		painel = new PainelControle(mvnPcs, false);
-		fibonacci = new Fibonacci();
 		painel.mostrarTerminal();
 		
 
