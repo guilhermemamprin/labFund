@@ -1,0 +1,8 @@
+				;			@	/0000
+0000 0006		;	INICIO	JP	MAIN
+0002 0000		;	SAIDA   $   /0001   0
+				;	SAIDA   $   /0001
+0004 0000		;	LU      K   /0000
+0006 f1fd		;	MAIN	OS	 /01FD
+0008 9002		;	        MM    SAIDA
+000a c00a		;	FIM		HM	 FIM

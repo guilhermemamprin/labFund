@@ -1,0 +1,8 @@
+		@	/0000
+INICIO	JP	MAIN
+SAIDA   $   /0001
+LU      K   /0000
+MAIN	OS	 /01FD
+        MM    SAIDA
+FIM		HM	 FIM
+		# INICIO
